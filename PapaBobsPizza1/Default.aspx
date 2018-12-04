@@ -13,6 +13,13 @@
         .auto-style2 {
             font-size: larger;
         }
+        .auto-style3 {
+            color: #000000;
+            font-size: medium;
+        }
+        .auto-style4 {
+            font-size: medium;
+        }
     </style>
 </head>
 <body>
@@ -28,9 +35,9 @@
         <asp:RadioButton ID="largeRadioButton" runat="server" GroupName="pizzaSize" Text="Papa Bob Size (16&quot;) - $16" />
         <br />
         <br />
-        <asp:RadioButton ID="thinCrustRadioButton" runat="server" GroupName="pizzaCrust" Text="Thin Crust" />
+        <asp:RadioButton ID="thinCrustRadioButton" runat="server" Checked="True" GroupName="pizzaCrust" Text="Thin Crust" />
         <br />
-        <asp:RadioButton ID="RadioButton6" runat="server" GroupName="pizzaCrust" Text="Deep Dish (+$2)" />
+        <asp:RadioButton ID="deepDishRadioButton" runat="server" GroupName="pizzaCrust" Text="Deep Dish (+$2)" />
         <br />
         <br />
         <asp:CheckBox ID="pepperoniCheckBox" runat="server" Text="Pepperoni (+$1.50)" />
@@ -44,7 +51,9 @@
         <asp:CheckBox ID="anchoviesCheckBox" runat="server" Text="Anchovies (+$2)" />
         <br />
         <br />
-        <span class="auto-style2"><strong>Papa Bob&#39;s </strong></span><span class="auto-style1"><strong>Special Deal</strong></span><br />
+        <span class="auto-style2"><strong>Papa Bob&#39;s </strong></span><strong><span class="auto-style1">Special Deal<br />
+        <br />
+        </span></strong><span class="auto-style3">Save $2.00 when you add Pepperoni, Green Peppers, and Anchovies OR Pepperoni, Red Peppers, and Onions to you pizza.</span><br />
         <br />
         <asp:Button ID="purchaseButton" runat="server" OnClick="purchaseButton_Click" Text="Purchase" />
         <br />
@@ -52,6 +61,6 @@
         <asp:Label ID="totalLabel" runat="server"></asp:Label>
         <br />
         <br />
-        Sorry, at this time you can only order one pizza online, and pick-up only... We need a better website!</form>
+        Sorry, at this time you can only or<span class="auto-style4">der one pizza</span> online, and pick-up only... We need a better website!</form>
 </body>
 </html>
