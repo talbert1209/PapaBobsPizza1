@@ -31,49 +31,40 @@ namespace PapaBobsPizza1 {
         protected global::System.Web.UI.WebControls.Image Image1;
         
         /// <summary>
-        /// RadioButton1 control.
+        /// smallRadioButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
+        protected global::System.Web.UI.WebControls.RadioButton smallRadioButton;
         
         /// <summary>
-        /// RadioButton2 control.
+        /// mediumRadioButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
+        protected global::System.Web.UI.WebControls.RadioButton mediumRadioButton;
         
         /// <summary>
-        /// RadioButton3 control.
+        /// largeRadioButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton3;
+        protected global::System.Web.UI.WebControls.RadioButton largeRadioButton;
         
         /// <summary>
-        /// RadioButton4 control.
+        /// thinCrustRadioButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton4;
-        
-        /// <summary>
-        /// RadioButton5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton5;
+        protected global::System.Web.UI.WebControls.RadioButton thinCrustRadioButton;
         
         /// <summary>
         /// RadioButton6 control.
@@ -85,66 +76,66 @@ namespace PapaBobsPizza1 {
         protected global::System.Web.UI.WebControls.RadioButton RadioButton6;
         
         /// <summary>
-        /// CheckBox1 control.
+        /// pepperoniCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.CheckBox pepperoniCheckBox;
         
         /// <summary>
-        /// CheckBox2 control.
+        /// onionsCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox2;
+        protected global::System.Web.UI.WebControls.CheckBox onionsCheckBox;
         
         /// <summary>
-        /// CheckBox3 control.
+        /// greenPeppersCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox3;
+        protected global::System.Web.UI.WebControls.CheckBox greenPeppersCheckBox;
         
         /// <summary>
-        /// CheckBox4 control.
+        /// redPeppersCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox4;
+        protected global::System.Web.UI.WebControls.CheckBox redPeppersCheckBox;
         
         /// <summary>
-        /// CheckBox5 control.
+        /// anchoviesCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox5;
+        protected global::System.Web.UI.WebControls.CheckBox anchoviesCheckBox;
         
         /// <summary>
-        /// Button1 control.
+        /// purchaseButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button purchaseButton;
         
         /// <summary>
-        /// Label1 control.
+        /// totalLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label totalLabel;
     }
 }

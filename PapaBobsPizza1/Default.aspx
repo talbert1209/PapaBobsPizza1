@@ -5,44 +5,51 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            color: #CC3300;
+            font-size: larger;
+        }
+        .auto-style2 {
+            font-size: larger;
+        }
+    </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <h1>
+    <form id="form1" runat="server" style="font-family: Arial, Helvetica, sans-serif">
+        <h1 style="font-family: Arial, Helvetica, sans-serif">
             <asp:Image ID="Image1" runat="server" ImageUrl="~/PapaBob.png" />
 &nbsp;Papa Bob&#39;s Pizza and software</h1>
         <br />
-        <asp:RadioButton ID="RadioButton1" runat="server" />
+        <asp:RadioButton ID="smallRadioButton" runat="server" GroupName="pizzaSize" Text="Baby Bob Size (10&quot;) - $10" />
         <br />
-        <asp:RadioButton ID="RadioButton2" runat="server" />
+        <asp:RadioButton ID="mediumRadioButton" runat="server" GroupName="pizzaSize" Text="Mama Bob Size (13&quot;) - $13" />
         <br />
-        <asp:RadioButton ID="RadioButton3" runat="server" />
-        <br />
-        <asp:RadioButton ID="RadioButton4" runat="server" />
+        <asp:RadioButton ID="largeRadioButton" runat="server" GroupName="pizzaSize" Text="Papa Bob Size (16&quot;) - $16" />
         <br />
         <br />
-        <asp:RadioButton ID="RadioButton5" runat="server" />
+        <asp:RadioButton ID="thinCrustRadioButton" runat="server" GroupName="pizzaCrust" Text="Thin Crust" />
         <br />
-        <asp:RadioButton ID="RadioButton6" runat="server" />
-        <br />
-        <br />
-        <asp:CheckBox ID="CheckBox1" runat="server" />
-        <br />
-        <asp:CheckBox ID="CheckBox2" runat="server" />
-        <br />
-        <asp:CheckBox ID="CheckBox3" runat="server" />
-        <br />
-        <asp:CheckBox ID="CheckBox4" runat="server" />
-        <br />
-        <asp:CheckBox ID="CheckBox5" runat="server" />
+        <asp:RadioButton ID="RadioButton6" runat="server" GroupName="pizzaCrust" Text="Deep Dish (+$2)" />
         <br />
         <br />
-        Papa Bob&#39;s Special Deal<br />
+        <asp:CheckBox ID="pepperoniCheckBox" runat="server" Text="Pepperoni (+$1.50)" />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:CheckBox ID="onionsCheckBox" runat="server" Text="Onions (+$0.75)" />
+        <br />
+        <asp:CheckBox ID="greenPeppersCheckBox" runat="server" Text="Green Peppers (+$0.50)" />
+        <br />
+        <asp:CheckBox ID="redPeppersCheckBox" runat="server" Text="Red Peppers (+$0.75)" />
+        <br />
+        <asp:CheckBox ID="anchoviesCheckBox" runat="server" Text="Anchovies (+$2)" />
         <br />
         <br />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <span class="auto-style2"><strong>Papa Bob&#39;s </strong></span><span class="auto-style1"><strong>Special Deal</strong></span><br />
+        <br />
+        <asp:Button ID="purchaseButton" runat="server" OnClick="purchaseButton_Click" Text="Purchase" />
+        <br />
+        <br />
+        <asp:Label ID="totalLabel" runat="server"></asp:Label>
         <br />
         <br />
         Sorry, at this time you can only order one pizza online, and pick-up only... We need a better website!</form>
